@@ -1,0 +1,10 @@
+{
+	"devices": {"s":"1650","ipad":"iPad landscape","mobile":"iPhone X"},
+	"inputPath": {"filterPath":"input.sidebar-filters__block-input","typePath": "input[type='text']","searchBarButton":".search-bar__search", "mailTypePath":"input[type='email']", "mailButton":".newsletter-form", "mailToType":"orlion312@gmail.com","errorMailType":"asdas"},
+	"imgPath": {"boxesImgPath":{"desktop":"./pics/boxes-show-success.png", "ipad":"./pics/boxes-show-success(ipad).png", "mobile":"./pics/boxes-show-success(mobile).png"}, "providerImgPath":{"desktop":"./pics/provider-show-success.png","ipad":"./pics/provider-show-success(ipad).png","mobile":"./pics/provider-show-success(mobile).png"},
+		"filtersImgPath":{"desktop":"./pics/filter-success.png", "ipad":"./pics/filter-success(ipad).png", "mobile":"./pics/filter-success(mobile).png"},"mailImgPath": {"success":{"desktop":"./pics/register-mail-success.png", "ipad":"./pics/register-mail-success(ipad).png","mobile":"./pics/register-mail-success(mobile).png"},"fail":{"desktop":"./pics/register-mail-fail.png", "ipad":"./pics/register-mail-fail(ipad).png","mobile":"./pics/register-mail-fail(mobile).png"}}},
+	"providers": {"input":"input[type='checkbox']","provName":["#sellers-amazon", "#sellers-ebay"]},
+	"boxes": {"boxesInput":".items-list__item","imgInput":"img.loaded","imgAtt":"data-was-processed"},
+	"subCat": {"ipad":"7","mobile":"6"},
+	"filtersSideBar":[".results-bar__filters"]
+}

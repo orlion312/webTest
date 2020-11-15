@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Automated software testing",
+  "main": "index.js",
+  "scripts": {
+    "tests": "node ./node_modules/mocha/bin/mocha ./tests",
+    "test:filter": "node ./node_modules/mocha/bin/mocha ./tests/filtersCheck.test.js",
+    "test:boxes": "node ./node_modules/mocha/bin/mocha ./tests/boxes.test.js",
+    "test:mail": "node ./node_modules/mocha/bin/mocha ./tests/registerMail.test.js",
+    "test:keywords": "node ./node_modules/mocha/bin/mocha ./tests/keywords.test.js",
+    "test:subCat": "node ./node_modules/mocha/bin/mocha ./tests/subCategory.test.js",
+    "test:checkP": "node ./node_modules/mocha/bin/mocha ./tests/checkProviders.test.js",
+    "test:provL": "node ./node_modules/mocha/bin/mocha ./tests/providersLaunch.test.js"
+  },
+  "keywords": [
+    "Sony"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "prettier": "^2.1.2",
+    "puppeteer": "^5.4.1"
+  }
+}
